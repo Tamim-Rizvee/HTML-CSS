@@ -1,5 +1,6 @@
 .image1{
     width:300px;
+    display:block;
     /* height: 300px;
     object-fit: contain;
     object-position: bottom;
@@ -21,4 +22,34 @@
     padding-left:10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    display:block;
+}
+
+.title{
+    margin-top: 0;
+}
+
+.video_preview{
+    width:300px;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+.channel-pic{
+    display:inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.channel-info{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.dp{
+    width: 100%;
+    border:none;
+    border-radius: 25px;
 }
